@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Tableta() {
     const [pokemons, setPokemons] = useState([]);
@@ -14,7 +14,7 @@ function Tableta() {
                     "https://pokeapi.co/api/v2/pokemon?limit=100"
                 );
 
-                if(!responsive.ok) {
+                if(!response.ok) {
                     throw new Error("Error al cargar los pokemon");
                 }
 

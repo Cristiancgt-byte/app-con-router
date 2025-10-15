@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Tableta from './componentes/PokemonDetail';
+import Tableta from './componentes/table';
 import './App.css';
 
 function App() {
